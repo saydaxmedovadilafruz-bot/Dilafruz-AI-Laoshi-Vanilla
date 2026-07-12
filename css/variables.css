@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Noto+Serif+SC:wght@500;600&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --color-bg: #f6efe4;
+  --color-bg-alt: #efe4d2;
+  --color-surface: #fffaf3;
+  --color-gold: #b8935a;
+  --color-gold-dark: #8a6a3c;
+  --color-text: #4a3b28;
+  --color-text-soft: #6b5335;
+  --color-line: rgba(184, 147, 90, 0.35);
+
+  --font-serif: "Playfair Display", "Noto Serif SC", serif;
+  --font-sans: "Inter", "Noto Serif SC", sans-serif;
+
+  --max-width: 1080px;
+  --section-spacing: clamp(3.5rem, 8vw, 6rem);
+
+  --reveal-duration: 0.8s;
+  --reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
