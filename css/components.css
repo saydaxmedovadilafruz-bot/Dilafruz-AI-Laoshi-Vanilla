@@ -85,6 +85,24 @@
   color: var(--color-surface);
 }
 
+.navbar__telegram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  color: var(--color-text-soft);
+  border: 1px solid var(--color-line);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.navbar__telegram:hover {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-surface);
+}
+
 .navbar__burger {
   display: none;
   flex-direction: column;
